@@ -36,6 +36,11 @@ Növ: `m` milli, `d` dini, `r` rəsmi, `f` fəsil.
 ## GitHub Pages ilə yayımlamaq
 Repo > Settings > Pages > Branch: `main`, qovluq `/ (root)`.
 
+## Android tətbiqi (PWA və APK)
+Layihə PWA-dır (`manifest.webmanifest`, `sw.js`). GitHub Pages-də yayımlandıqdan sonra:
+- Telefonda Chrome ilə açın, menyudan "Tətbiqi quraşdır" / "Ana ekrana əlavə et" seçin.
+- APK/AAB üçün https://www.pwabuilder.com saytına Pages ünvanını yazın, "Package for stores > Android" seçin.
+
 ## Məlum məhdudiyyətlər
 - Qəməri və dini tarixlər hesablanır, İranın rəsmi təqvimindən 1–2 gün fərqlənə bilər.
 - Bildirişlər səhifə açıq olanda işləyir. Bağlı olanda bildiriş üçün PWA (service worker və push) lazımdır.
